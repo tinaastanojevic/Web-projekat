@@ -1,0 +1,21 @@
+
+set identity_insert [#tempBiblioteke] on;
+
+
+insert [#tempBiblioteke] ([ID],[Naziv],[Adresa])
+select 1005,N'Stevan Sremac',N'Borivoja Gojkovica 9' UNION ALL
+select 1006,N'Branislav Nusic',N'Sarajevska 8';
+
+set identity_insert [#tempBiblioteke] off;
+
+
+
+set identity_insert [#tempAutori] on;
+
+
+insert [#tempAutori] ([ID],[Ime],[Prezime])
+select 1006,N'Joanne',N'Rowling' UNION ALL
+select 1007,N'Fredrik',N'Backman' UNION ALL
+select 1008,N'Terry',N'Brooks';
+
+set identity_insert [#tempAutori] off;
