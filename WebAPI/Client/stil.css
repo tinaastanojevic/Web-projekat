@@ -1,0 +1,82 @@
+.GlavniKontejner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.Forma {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 16%;
+}
+
+body {
+    background-image: url("https://sbooks.net/wp-content/uploads/2021/10/old-book-flying-letters-magic-light-background-bookshelf-library-ancient-books-as-symbol-knowledge-history-218640948.jpg");
+}
+
+.formaClan,
+.formaIznajmi,
+.formaKnjiga {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+
+button {
+    background-color: rgb(187, 2, 2);
+    margin: 3px;
+    padding: 5px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.labelaNazivBibl {
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+
+.formaItabela {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.table,
+tr,
+th,
+td {
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    height: 50px;
+}
+
+th {
+    color: rgb(255, 0, 0);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+    background-color: black;
+}
+
+.Prikaz {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    flex-basis: 75%;
+    align-self: flex-start;
+}
+
+.PrikazIznajmljivanja {
+    margin-top: 20px;
+}
